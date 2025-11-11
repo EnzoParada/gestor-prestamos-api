@@ -8,6 +8,7 @@ Proyecto de backend desarrollado con Java y el ecosistema Spring (Boot, Security
 | :--- | :--- |
 | **Lenguaje** | Java 17+ |
 | **Frameworks** | Spring Boot, Spring Security, Spring Data JPA |
+| **Documentacion** | SpringDoc (OpenAPI 3 / Swagger UI) |
 | **Utilidades** | Lombok |
 | **Control de versiones** | Git |
 
@@ -15,6 +16,15 @@ Proyecto de backend desarrollado con Java y el ecosistema Spring (Boot, Security
 
 ## 🛠️ Estructura del Proyecto
 El proyecto implementa las operaciones CRUD (Crear, Leer, Actualizar, Eliminar) para la entidad Cliente y la gestión de creación y lectura para la entidad Préstamo.
+
+---
+## 📄 Documentación Interactiva (Swagger UI)
+
+La API cuenta con documentación interactiva y auto-generada utilizando **SpringDoc**.
+
+Una vez que la aplicación se inicie, se puede acceder a la interfaz de usuario de **Swagger UI** para visualizar y probar todos los endpoints:
+
+> 🔗 **URL de Acceso:** `http://localhost:8080/swagger-ui.html`
 
 ---
 ## 🔒 Seguridad (HTTP Basic)
